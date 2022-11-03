@@ -9,9 +9,9 @@ op = {gt greater-than<br/>
       lt less-than <br/>
       eq 	equal to<br/>
       }<br/>
-val = {created date        YYYY-MM-DD<br/>
-       modification_date   YYYY-MM-DD<br/>
-       status             ARCHIVED/OPEN<br/>
+val = {created date        (YYYY-MM-DD)<br/>
+       modification_date   (YYYY-MM-DD)<br/>
+       status             (ARCHIVED/OPEN)<br/>
       }<br/>
 Examples:      
 /boards/?name=mdd&op=gt&val=2022-11-01<br/>
