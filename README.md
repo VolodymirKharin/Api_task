@@ -1,9 +1,9 @@
-GET    - /boards/                           Get BOARDS<br/>
-GET    - /boards/?name=name&op=op&val=val   Get BOARDS<br/>
+GET\t    - /boards/                           Get BOARDS<br/>
+GET\t    - /boards/?name=name&op=op&val=val   Get BOARDS<br/>
 name ={crd - created date<br/>
-       mdd - modification_date<br/>
-       st  - status<br/>
-       }<br/>
+\t       mdd - modification_date<br/>
+\t       st  - status<br/>
+\t       }<br/>
 op = {gt greater-than<br/>
       lt less-than <br/>
       eq 	equal to<br/>
