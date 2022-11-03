@@ -1,24 +1,24 @@
-GET    - /boards/                           Get BOARDS
-GET    - /boards/?name=name&op=op&val=val   Get BOARDS
-name ={crd - created date
-       mdd - modification_date
-       st  - status
-       }
-op = {gt greater-than
-      lt less-than 
-      eq 	equal to
-      }
-val = {created date        YYYY-MM-DD
-       modification_date   YYYY-MM-DD
-       status             ARCHIVED/OPEN
-      }
+GET    - /boards/                           Get BOARDS<br/>
+GET    - /boards/?name=name&op=op&val=val   Get BOARDS<br/>
+name ={crd - created date<br/>
+       mdd - modification_date<br/>
+       st  - status<br/>
+       }<br/>
+op = {gt greater-than<br/>
+      lt less-than <br/>
+      eq 	equal to<br/>
+      }<br/>
+val = {created date        YYYY-MM-DD<br/>
+       modification_date   YYYY-MM-DD<br/>
+       status             ARCHIVED/OPEN<br/>
+      }<br/>
 Examples:      
-/boards/?name=mdd&op=gt&val=2022-11-01
-/boards/?name=st&op=eq&val=ARCHIVED
+/boards/?name=mdd&op=gt&val=2022-11-01<br/>
+/boards/?name=st&op=eq&val=ARCHIVED<br/>
 
-GET    - /task/{id}'                    Get task
-GET    - /tasks/'                       Get tasks
-GET    - /tasks/?status={true/false}    Get tasks 
-POST   - /tasks/                        Create task
-PUT    - /task/{id}'                    Update Task
-DELETE - /task/{id}'                    Delete Task
+GET    - /task/{id}'                    Get task<br/>
+GET    - /tasks/'                       Get tasks<br/>
+GET    - /tasks/?status={true/false}    Get tasks <br/>
+POST   - /tasks/                        Create task<br/>
+PUT    - /task/{id}'                    Update Task<br/>
+DELETE - /task/{id}'                    Delete Task<br/>
