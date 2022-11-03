@@ -1,17 +1,17 @@
-GET\t    - /boards/                           Get BOARDS<br/>
-GET\t    - /boards/?name=name&op=op&val=val   Get BOARDS<br/>
+GET<md-tab>    - /boards/                           Get BOARDS<br/>
+GET<md-tab>    - /boards/?name=name&op=op&val=val   Get BOARDS<br/>
 name ={crd - created date<br/>
-\t       mdd - modification_date<br/>
-\t       st  - status<br/>
-\t       }<br/>
+<md-tab>       mdd - modification_date<br/>
+<md-tab>       st  - status<br/>
+<md-tab>       }<br/>
 op = {gt greater-than<br/>
-      lt less-than <br/>
-      eq 	equal to<br/>
-      }<br/>
+<md-tab>      lt less-than <br/>
+<md-tab>      eq 	equal to<br/>
+<md-tab>      }<br/>
 val = {created date        YYYY-MM-DD<br/>
-       modification_date   YYYY-MM-DD<br/>
-       status             ARCHIVED/OPEN<br/>
-      }<br/>
+<md-tab>       modification_date   YYYY-MM-DD<br/>
+<md-tab>       status             ARCHIVED/OPEN<br/>
+<md-tab>      }<br/>
 Examples:      
 /boards/?name=mdd&op=gt&val=2022-11-01<br/>
 /boards/?name=st&op=eq&val=ARCHIVED<br/>
